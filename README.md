@@ -43,6 +43,14 @@ return the top or bottom five foods for that column.
 **Recipes** come from allrecipes.com: spaCy pulls the dish name out of the question, the
 scraper runs a search, then parses the top result's ingredients, directions and nutrition.
 
+## Data
+
+`Nutrition.db` was built from the five CSV files (`FOOD-DATA-GROUP1.csv` to
+`FOOD-DATA-GROUP5.csv`) of the
+[Food Nutrition Dataset](https://www.kaggle.com/datasets/utsavdey1410/food-nutrition-dataset)
+on Kaggle: 2,395 foods with 34 nutrient columns. The CSVs are not in this repository;
+[`NutritionDB_Test.ipynb`](src/notebooks/NutritionDB_Test.ipynb) shows how they were loaded.
+
 ## Prompt-strategy comparison
 
 [`batch.py`](src/scripts/batch.py) runs 16 questions through the full pipeline — nutrition

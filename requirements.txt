@@ -1,0 +1,9 @@
+beautifulsoup4
+lxml
+numpy
+openpyxl
+pandas
+rapidfuzz
+requests
+sentence-transformers
+spacy
